@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+    margin: 0;
+    font-family: 'Poppins';
+    overflow-x: hidden;
+    scroll-behavior: auto;
+    background-color: #F2F2F2;
+}
+
+.toolBar {
+    position: fixed;
+    min-height: 50px;
+    max-height: 50px;
+    min-width: 100%;
+    max-width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+.logo {
+    position: fixed;
+    top: 1%;
+    left: 17%;
+    cursor: pointer;
+    display: flex;
+}
+
+.logo h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.logo h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #007AF3;
+}
+
+.primary-btns {
+    position: absolute;
+    display: flex;
+    left: 35%;
+    top: 15%;
+}
+
+.secondairy-btn {
+    position: absolute;
+    display: flex;
+    left: 70%;
+    top: 15%;
+}
+
+.btn_pages {
+    cursor: pointer;
+    font-family: 'Poppins';
+    font: bold;
+    font-size: 18px;
+    color: #444444;
+    background-color: white;
+    border: 2.5px solid white;
+}
+
+.btn_premium {
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 17px;
+    color: #007AF3;
+    background-color: white;
+    border-radius: 30px;
+    border: 3px solid #007AF3;
+}
+
+#thisPage {
+    font-weight: bold;
+}
+
+.container-1 {
+    position: relative;
+    min-height: 700px;
+    max-height: 700px;
+    background-color: #F2F2F2;
+}
+
+.btn_menu {
+    position: absolute;
+    right: 0%;
+    top: 100%;
+    background-color: white;
+    border: 40px solid white;
+    font: 100px;
+}
+
+#menupage {
+    display: none;
+}
+
+.menu_pages {
+    background-color: white;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+#text-1 {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+.tracker {
+    position: absolute;
+    min-height: 135%;
+    width: 50%;
+}
+
+@media only screen and (max-width: 1100px) {
+    .btn_pages {
+        display: none;
+    }
+    .btn_premium {
+        display: none;
+    }
+    #btn_menu {
+        position: absolute;
+        max-width: 60px;
+        right: 5%;
+        top: -10%;
+    }
+    #text-1 {
+        top: 40%;
+        left: 17%;
+    }
+    .tracker {
+        position: absolute;
+        min-height: 90%;
+        width: 98%;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    #btn_menu {
+        display: none;
+    }
+    .menu_pages {
+        display: none;
+    }
+    #menupage {
+        display: none;
+    }
+}

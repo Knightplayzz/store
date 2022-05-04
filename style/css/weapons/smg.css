@@ -1,0 +1,430 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+    margin: 0;
+    font-family: 'Poppins';
+    overflow-x: hidden;
+    scroll-behavior: auto;
+    background-color: #F2F2F2;
+}
+
+.toolBar {
+    position: fixed;
+    min-height: 50px;
+    max-height: 50px;
+    min-width: 100%;
+    max-width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+.logo {
+    position: fixed;
+    top: 1%;
+    left: 17%;
+    cursor: pointer;
+    display: flex;
+}
+
+.logo h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.logo h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #007AF3;
+}
+
+.primary-btns {
+    position: absolute;
+    display: flex;
+    left: 35%;
+    top: 15%;
+}
+
+.secondairy-btn {
+    position: absolute;
+    display: flex;
+    left: 70%;
+    top: 15%;
+}
+
+.btn_pages {
+    cursor: pointer;
+    font-family: 'Poppins';
+    font: bold;
+    font-size: 18px;
+    color: #444444;
+    background-color: white;
+    border: 2.5px solid white;
+}
+
+.btn_premium {
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 17px;
+    color: #007AF3;
+    background-color: white;
+    border-radius: 30px;
+    border: 3px solid #007AF3;
+}
+
+#thisPage {
+    font-weight: bold;
+}
+
+.btn_menu {
+    position: absolute;
+    right: 0%;
+    top: 100%;
+    background-color: white;
+    border: 40px solid white;
+    font: 100px;
+}
+
+#menupage {
+    display: none;
+}
+
+.menu_pages {
+    background-color: white;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+.container-1 {
+    position: relative;
+    min-height: 700px;
+    max-height: 700px;
+    background-color: #F2F2F2;
+}
+
+.weaponSelect {
+    position: absolute;
+    max-width: 10%;
+    max-height: 10%;
+    top: 40%;
+    left: 10%;
+}
+
+.buttons {
+    position: relative;
+    color: white;
+    max-width: 100px;
+    min-width: 100px;
+    font-family: 'Poppins';
+    background-color: green;
+    border: #F2F2F2 1px solid;
+    cursor: pointer;
+    display: block;
+}
+
+#btn_drop {
+    border: #F2F2F2 1px solid;
+    background-color: black;
+    display: block;
+}
+
+.img-weapons {
+    position: absolute;
+    max-width: 20%;
+    max-height: 20%;
+    top: 60%;
+    left: 40%;
+    display: none;
+}
+
+#img-barrel {
+    position: absolute;
+    max-width: 10%;
+    max-height: 10%;
+    min-width: 10%;
+    min-height: 10%;
+    top: 44%;
+    left: 35%;
+    display: none;
+}
+
+#img-lightmag {
+    position: absolute;
+    max-width: 7%;
+    max-height: 7%;
+    min-width: 7%;
+    min-height: 7%;
+    top: 45%;
+    left: 40%;
+    display: none;
+}
+
+#img-stock {
+    position: absolute;
+    max-width: 8%;
+    max-height: 8%;
+    min-width: 8%;
+    min-height: 8%;
+    top: 45%;
+    left: 46.5%;
+    display: none;
+}
+
+#img-1times {
+    position: absolute;
+    max-width: 8%;
+    max-height: 8%;
+    min-width: 3.5%;
+    min-height: 3.5%;
+    top: 45%;
+    left: 45.2%;
+    display: none;
+}
+
+#img-energymag {
+    position: absolute;
+    max-width: 7%;
+    max-height: 7%;
+    min-width: 7%;
+    min-height: 7%;
+    top: 45%;
+    left: 40%;
+    display: none;
+}
+
+#img-heavymag {
+    position: absolute;
+    max-width: 7%;
+    max-height: 7%;
+    min-width: 7%;
+    min-height: 7%;
+    top: 45%;
+    left: 40%;
+    display: none;
+}
+
+#img_volt {
+    left: 36%;
+}
+
+#img_car {
+    left: 36%;
+}
+
+.ptw-btns {
+    position: absolute;
+    max-width: 10%;
+    max-height: 10%;
+    top: 70%;
+    left: 10%;
+}
+
+.ptw-btn-r99 {
+    position: relative;
+    color: white;
+    min-width: 150px;
+    max-width: 150px;
+    background-color: gray;
+    border: gray 1px solid;
+    cursor: pointer;
+    display: none;
+}
+
+#btn_r99 {
+    background-color: black;
+    border: black 1px solid;
+}
+
+.ptw-r99-img {
+    position: absolute;
+    max-width: 400px;
+    top: 45%;
+    left: 40%;
+    display: none;
+}
+
+.ptw-text {
+    position: absolute;
+    max-width: 400px;
+    top: 20%;
+    left: 38%;
+}
+
+#outlands-text {
+    display: none;
+}
+
+#killswitch-text {
+    display: none;
+}
+
+#gal-text {
+    display: none;
+}
+
+#ledrez-text {
+    display: none;
+}
+
+#btn_prowler {
+    background-color: black;
+    cursor: unset;
+}
+
+#btn_alt {
+    background-color: black;
+}
+
+.ptw-text2 {
+    position: absolute;
+    max-width: 400px;
+    top: 25%;
+    left: 0%;
+}
+
+#text_r99_1 {
+    left: 10%;
+    display: none;
+    font-size: 20px;
+}
+
+#text_r99_2 {
+    left: 18%;
+    display: none;
+}
+
+#text_alternator_1 {
+    display: none;
+    left: 22%;
+}
+
+#text_alternator_2 {
+    left: 10%;
+    display: none;
+}
+
+@media only screen and (max-width: 1100px) {
+    .btn_pages {
+        display: none;
+    }
+    .btn_premium {
+        display: none;
+    }
+    #btn_menu {
+        position: absolute;
+        max-width: 60px;
+        right: 5%;
+        top: -10%;
+    }
+    #btn_drop {
+        display: none;
+    }
+    .weaponSelect {
+        position: absolute;
+        left: 2%;
+        top: 10%;
+        display: flex;
+    }
+    .buttons {
+        max-width: 75px;
+        min-width: 75px;
+    }
+    .img-weapons {
+        position: absolute;
+        max-width: 70%;
+        min-width: 50%;
+        top: 60%;
+        left: 25%;
+        display: none;
+    }
+    #img_alternator {
+        max-width: 15%;
+        max-height: 50%;
+    }
+    #img_volt {
+        left: 15%;
+    }
+    #img_car {
+        left: 15%;
+    }
+    #img_r99 {
+        left: 15%;
+    }
+    #img_prowler {
+        left: 20%;
+    }
+    #img-barrel {
+        max-width: 15%;
+        max-height: 15%;
+        min-width: 10%;
+        min-height: 10%;
+        left: 15%;
+    }
+    #img-lightmag {
+        max-width: 12%;
+        max-height: 12%;
+        min-width: 7%;
+        min-height: 7%;
+        left: 32%;
+    }
+    #img-stock {
+        max-width: 15%;
+        max-height: 15%;
+        min-width: 10%;
+        min-height: 10%;
+        left: 65%;
+        top: 44%;
+    }
+    #img-1times {
+        max-width: 15%;
+        max-height: 15%;
+        min-width: 12%;
+        min-height: 12%;
+        top: 43%;
+        left: 48%;
+    }
+    #img-energymag {
+        max-width: 13%;
+        max-height: 13%;
+        min-width: 10%;
+        min-height: 10%;
+        left: 32%;
+        top: 44%;
+    }
+    #img-heavymag {
+        max-width: 14%;
+        max-height: 14%;
+        min-width: 10%;
+        min-height: 10%;
+        top: 10%;
+        left: 32%;
+    }
+    .ptw-btns {
+        top: 100%;
+        left: 25%;
+    }
+    .ptw-r99-img {
+        left: 10%;
+        max-width: 80%;
+    }
+    .ptw-text {
+        left: 20%;
+    }
+    .ptw-btn-r99 {
+        min-width: 200px;
+        min-height: 25px;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    #btn_menu {
+        display: none;
+    }
+    .menu_pages {
+        display: none;
+    }
+    #menupage {
+        display: none;
+    }
+}

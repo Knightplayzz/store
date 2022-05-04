@@ -1,0 +1,12 @@
+smg:-   prowler     1) dark fright
+        Volt        1) geen
+        car         1) geen
+
+ar:-    none
+
+lmg:-   none
+
+scroll phone index.html fix
+more checkmarks/text to centre (phone)
+finish itemshop/stats page
+add contact/premium page
